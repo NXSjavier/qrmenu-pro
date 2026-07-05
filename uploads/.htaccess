@@ -1,0 +1,4 @@
+Deny from all
+<FilesMatch "\.(jpg|jpeg|png|webp|gif|svg)$">
+    Allow from all
+</FilesMatch>
